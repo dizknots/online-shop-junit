@@ -35,7 +35,12 @@ public class Comment
     {
         votes++;
     }
-
+    
+    public String getText()
+    {
+        return text;
+    }
+    
     /**
      * Indicate that this comment is not useful ('downvote'). This is used when a reader
      * clicks the 'No' button after the "Was this comment helpful?" quesion.
